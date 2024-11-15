@@ -98,7 +98,6 @@ header .container {
 }
 
 .logo h3 {
-  /* color: var(--darkTwo); */
   color: white;
   font-size: 1.55rem;
   line-height: 1.2;
@@ -206,10 +205,10 @@ header .container {
 
 .text {
     color: #ededed;
-  font-size: 1.1rem;
-  margin: 1.9rem 0 2.5rem;
-  max-width: 600px;
-  line-height: 2.3;
+    font-size: 1.1rem;
+    margin: 1.9rem 0 2.5rem;
+    max-width: 600px;
+    line-height: 2.3;
 }
 
 .showcase-area .btn {
@@ -285,6 +284,10 @@ header .container {
   }
 }
 
+.test-email{
+  color: rgb(255, 255, 255);
+  font-weight: 600; 
+}
 @media screen and (max-width: 870px) {
 .hamburger-menu {
     display: flex;
@@ -364,6 +367,7 @@ header .container {
     margin: 1.4rem 0 1.5rem;
 }
 
+
 .person {
     width: 100%;
     transform: none;
@@ -405,14 +409,14 @@ header .container {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 60vh;
-    padding: 10rem 0;
+    min-height: 40vh;
+    padding: 40px;
 }
+
 .card-basic,
 .card-standard,
 .card-premium {
-    margin: 0 2rem 1rem 0;
-    padding: 0 0 0.5rem 0;
+    margin: 0 1rem 1rem 0;
     width: 15rem;
     background-color: var(--mainColor);
     color: #444;
@@ -887,7 +891,7 @@ header .container {
     gap: 20px;
     flex-wrap: wrap;
     max-width: 1200px;
-    margin: 10rem auto;
+    margin: 4rem auto;
   }
 
   /* Individual card styling */
@@ -905,13 +909,13 @@ header .container {
     transform: translateY(-5px);
   }
 
-  /* Icon styling */
+  
   .service-card .icon {
     font-size: 40px;
     margin-bottom: 15px;
   }
 
-  /* Heading and text styling */
+  
   .service-card h3 {
     font-size: 1.25em;
     color: #333;
@@ -926,7 +930,7 @@ header .container {
     margin: 10px 0 20px;
   }
 
-  /* Link styling */
+  
   .service-card a {
     color: #f05a24;
     font-weight: bold;
@@ -938,7 +942,7 @@ header .container {
     color: #1d72b8;
   }
 
-  /* Responsive adjustments */
+  
   @media (max-width: 768px) {
     .services-container {
       flex-direction: column;
